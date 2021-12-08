@@ -1,0 +1,169 @@
+body { 
+    overflow: hidden;
+    margin: 0px;
+    background-color:black;
+}
+    #loading_1{
+        position: relative;
+        left: 50%;
+        width: 40px;
+        height: 40px;
+}
+        #loading_1 span{
+            display: block;
+            bottom: 0px;
+            width: 20px;
+            height: 20px;
+            background: #9b59b6;
+            position: absolute;
+}
+            #loading_1 span:nth-child(1){
+                top: 330px;
+                animation: loading_1_1 1.5s infinite ease-in-out ;
+                animation-iteration-count: 4;
+                animation-fill-mode: none;
+}
+            #loading_1 span:nth-child(2){
+                top: 330px;
+                left: 20px;
+                animation: loading_1_2 1.5s infinite ease-in-out ;
+                animation-iteration-count: 4;
+                animation-fill-mode: none;
+}
+            #loading_1 span:nth-child(3){
+                top: 350px;
+                animation: loading_1_3 1.5s infinite ease-in-out ;
+                animation-iteration-count: 4;
+                animation-fill-mode: none;
+}
+            #loading_1 span:nth-child(4){
+                top: 350px;
+                left: 20px;
+                animation: loading_1_4 1.5s infinite ease-in-out ;
+                animation-iteration-count: 4;
+                animation-fill-mode: none;
+}
+            @keyframes loading_1_1{
+                0%{transform: translateX(0px) translateY(0px) rotate(0deg); border-radius: 0px;}
+                50%{transform: translateX(-20px) translateY(-10px) rotate(-180deg); border-radius: 20px;background: #3498db;}
+                80%{transform: translateX(0px) translateY(0px) rotate(-360deg); border-radius: 0px;}
+                100%{transform: translateX(0px) translateY(0px) rotate(-360deg); border-radius: 0px;}
+}
+            @keyframes loading_1_2{
+                0%{transform: translateX(0px) translateY(0px) rotate(0deg); border-radius: 0px;}
+                50%{transform: translateX(20px) translateY(-10px) rotate(180deg); border-radius: 20px;background: #f1c40f;}
+                80%{transform: translateX(0px) translateY(0px) rotate(360deg); border-radius: 0px;}
+                100%{transform: translateX(0px) translateY(0px) rotate(360deg); border-radius: 0px;}
+}
+            @keyframes loading_1_3{
+                0%{transform: translateX(0px) translateY(0px) rotate(0deg); border-radius: 0px;}
+                50%{transform: translateX(-20px) translateY(10px) rotate(-180deg); border-radius: 20px;background: #2ecc71;}
+                80%{transform: translateX(0px) translateY(0px) rotate(-360deg); border-radius: 0px;}
+                100%{transform: translateX(0px) translateY(0px) rotate(-360deg); border-radius: 0px;}
+}
+            @keyframes loading_1_4{
+                0%{transform: translateX(0px) translateY(0px) rotate(0deg); border-radius: 0px;}
+                50%{transform: translateX(20px) translateY(10px) rotate(180deg); border-radius: 20px;background: #e74c3c;}
+                80%{transform: translateX(0px) translateY(0px) rotate(360deg); border-radius: 0px;}
+                100%{transform: translateX(0px) translateY(0px) rotate(360deg); border-radius: 0px;}
+}
+    .container {
+        position: relative;
+        top: 0;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 1520px;
+        height: 1012px;
+        animation: container 50s linear;
+        animation-delay: 6s;
+        animation-iteration-count: 1;
+        animation-fill-mode: none;
+}
+    @keyframes container {
+       0% {background: url(img/Xmas1.jpeg);}    
+       30% {background: url(img/Xmas4.jpeg);}
+       50% {background: url(img/Xmas2.jpeg);}
+       70% {background: url(img/Xmas3.jpeg);}
+       90% {background: url(img/Xmas5.jpg);}
+       100% {background: url(img/Xmas1.jpeg);}
+}
+        .elk {
+            position : absolute;
+            top: -500px;
+            left: 50%;
+            transform: translateX(-50%);
+            width: 600px;
+            height: 300px;
+            animation: elk 10s linear 5;
+            animation-fill-mode: none;
+}
+            .elk1 {
+                background: url(img/4.png) no-repeat center center;animation-delay: 6s;
+}
+            .elk2 {
+                background: url(img/3.png) no-repeat center center; animation-delay: 6.5s;
+}
+            .elk3 {
+                background: url(img/2.png) no-repeat center center; animation-delay: 7s;
+}
+            .elk4 {
+                background: url(img/1.png) no-repeat center center; animation-delay: 7.5s;
+}
+        @keyframes elk {
+            0% { opacity: 1; left:0; top:0;}
+            5% { opacity: 1; left:100; top:50;}
+            10% { opacity: 1; left:200px; top:100px;}
+            15% { opacity: 1; left:300px; top:150px;}
+            20% { opacity: 1; left:400px; top:200px;}
+            25% { opacity: 1; left:500px; top:150px;}   
+            30% { opacity: 1; left:600px; top:100px;}
+            35% { opacity: 1; left:700px; top:50px;}
+            40% { opacity: 1; left:800px; top:100px;}
+            45% { opacity: 1; left:900px; top:200px;}
+            50% { opacity: 1; left:1000px; top:300px;}
+            55% { opacity: 1; left:1100px; top:400px;}
+            60% { opacity: 1; left:1200px; top:300px;}
+            65% { opacity: 1; left:1300px; top:250px;}
+            70% { opacity: 1; left:1400px; top:200px;}
+            75% { opacity: 1; left:1500px; top:150px;}
+            80% { opacity: 1; left:1600px; top:100px;}
+            85% { opacity: 1; left:1700px; top:50px;}
+            90% { opacity: 1; left:1800px; top:0;}
+            95% { opacity: 1; left:1900px; top:0;}
+            100% { opacity: 1; left:2000px; top:0;}
+}
+    .bless{
+            position: relative;
+            top: 0;
+            left: 50%;
+            transform: translateX(-50%);
+            width: 1520px;
+            height: 1012px;
+            animation: bless 1s linear infinite;
+            animation-delay: 56s;
+}
+    @keyframes bless {
+        from {background: url(img/tree.jpg);}    
+        to {background: url(img/tree.jpg);}
+}
+
+        .MC{
+        animation:MC 10s infinite ease-in-out;
+        animation-delay: 56s;
+        display: inline-block;
+        margin: 200px 200px;
+        font-size: 100px;
+        color: red;
+}
+        @keyframes MC {
+            10% {transform: translate(0, 1.5px) rotate(-2.5deg)}
+            20% {transform: translate(0, -1.5px) rotate(3deg)}
+            30% {transform: translate(0, .5px) rotate(5deg)}   
+            40% {transform: translate(0, -.5px) rotate(3deg)}
+            50% {transform: translate(0, .5px) rotate(2.5deg)}
+            60% {transform: translate(0, 2.5px) rotate(3deg)}
+            70% {transform: translate(0, 1.5px) rotate(2.5deg)}
+            80% {transform: translate(0, 1.5px) rotate(5deg)}
+            90% {transform: translate(0, 2.5px) rotate(-2.5deg)}
+            0%,100% {transform: translate(0, 0) rotate(0)}
+}
